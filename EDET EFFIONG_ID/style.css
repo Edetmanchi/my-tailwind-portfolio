@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+main {
+    width: 20%;
+    height: 60%;
+    margin-left: 35%;
+    margin-top: 10%;
+    border: black 1px solid;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: lavender;
+}
+.img-wrapper{
+    margin-left:20%;
+}
+img{
+    height: 150px;
+    border-radius: 50%;    
+}
+.first-wrapper h3{
+    padding-left:65px ;
+    margin: 5px;
+    color: rgb(80, 152, 80);
+    font-family: sans-serif;
+}
+.stack{
+    background-color: rgba(57, 90, 82, 0.441);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.stack h5 {
+    padding-left: 30px;
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.about p{
+    padding: 5px;
+    font-family: cursive;
+}

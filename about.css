@@ -1,0 +1,126 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #fff0bec8; */
+    background-color: rgba(248, 235, 225, 0.783);
+    font-family: 'Roboto', sans-serif;
+
+}
+h2{
+    color: rgb(172, 81, 16);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 50px;
+}
+
+.flex-container{
+    display: flex;
+    padding: 40px;
+    margin: 90px 20px;
+    gap: 50px;
+    background-color: rgb(229, 224, 224);
+    border-radius: 20px;
+}
+.img-wrapper img{
+    width: 500px;
+    height: 300px;
+    border-radius:20px ;
+    padding-top: 30px;
+}
+.write-up{
+    font-size: 20px;
+
+}
+
+
+/* social media links */
+
+.socials .github-social{
+    color: white;
+    background-color: black;
+}
+.socials i:hover{
+    color: blue;
+    background-color: rgb(226, 225, 225);
+}
+
+.socials .facebook-social{
+    color: white;
+    background-color: blue;
+}
+.socials .linkedin-social{
+    color: white;
+    background-color: rgb(107, 107, 239);
+}
+
+.socials i{
+    padding: 12px;
+    margin: 7px;
+    font-size: 28px;
+    border: rgb(205, 194, 194) 1px solid;
+    border-radius: 50%;
+    background-color: rgb(128, 128, 236);
+    /* color: blue; */
+    color: white;     
+}
+
+
+/* resume button */
+.resume{
+    padding-top: 10px;
+}
+button{
+    background-color: black;
+    color: rgba(248, 235, 225, 0.783);
+    padding: 10px 12px;
+    border-radius: 16px;
+    font-size: 15px;
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+/* media  Query for tablet */
+@media(max-width:768px){
+   
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-wrapper{
+        margin-left: 70px;
+    }
+    .img-wrapper img{
+        width: 460px;
+        height: 290px;
+        padding-top: 10px;
+        
+
+    }
+    .about h2{
+        text-align: center;
+        font-size: 30px;
+    }
+    .write-up{
+        font-size: 15px;
+    }
+    .socials i{
+        /* text-align: center; */
+        font-size: 19px;
+    }
+    button{
+        font-size: 12px;
+    }
+}
+@media(max-width:500px){
+    .img-wrapper{
+        display: none;
+    }
+}
